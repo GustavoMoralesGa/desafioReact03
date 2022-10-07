@@ -17,7 +17,7 @@ function App() {
   
   const handleClick = () => {
      setColabList([...colabList, 
-      {...newColab, id: Date.now}]);
+      {...newColab, id: Date.now()}]);
   }
 
   const [findColab, setFindColab] = useState('');
